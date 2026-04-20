@@ -35,27 +35,46 @@ Ambiguidade/Falta - Qual a ordem padrão de exibição das tarefas?
 
 REQUISITOS FUCIONAIS (RF)
  RF01 - Listar tarefas - O sistema deve exibir todas as tarefas cadastradas em uma lista.
+ 
  RF02 - Criar tarefa - O sistema deve permitir a criação de uma nova tarefa com título obrigatório.
+ 
  RF03 - Marcar como concluída - O sistema deve permitir alterar a situação de uma tarefa de "pendente" para "concluída".
+ 
  RF04 - Desmarcar tarefa - O sistema deve permitir reverter uma tarefa de "concluída" para "pendente".
+ 
  RF05 - Deletar tarefa - O sistema deve permitir remover permanentemente uma tarefa.
+ 
  RF06 - Filtrar por situação - O sistema deve oferecer filtros para exibir: "Todas", "Apenas pendentes" ou "Apenas concluídas".
+ 
  RF09 - Prioridade (opcional) - O sistema deve permitir definir um nível de prioridade (1 a 3) para cada tarefa.
+ 
  RF10 - Ordenar por prioridade - O sistema deve ordenar as tarefas por prioridade (mais alta primeiro) quando o campo prioridade for implementado.
 
 
+
+
 Requisitos Não Funcionais (RNF)
+
  RNF01	Usabilidade	A interface deve ser simples e intuitiva, com botões claros para cada ação (criar, concluir, deletar).
+ 
  RNF02	Persistência	Os dados devem ser salvos localmente (JSON ou localStorage) para não serem perdidos ao fechar a aplicação.
+ 
  RNF03	Responsividade	A interface deve se adaptar a diferentes tamanhos de tela (mobile, tablet, desktop).
+ 
  RNF04	Performance	A lista deve carregar e filtrar em menos de 1 segundo para até 1000 tarefas.
+ 
  RNF05	Manutenibilidade	O código deve ser organizado em componentes reutilizáveis (React).
 
 
+
 Tratamento do Requisito de Prioridade no Backlog
+
  OBRIGATORIO (MUST): Requisitos Fucionais (RF) do RF01 ao RF03 é RF05 ao RF06 é o Requisito Não Fucional RNF02.
+ 
  PRIORIDADE MÉDIA(SHOULD): Requisitos Fucionais: RF04, RF09, RF10 Requisitos Não Fucionais do RNF01 ao RNF03.
+ 
  PRIORIDADE BAIXA(COULD): Coisas como Editar, Data vencimento, Busca, Performance, Dark mode
+ 
  PARA O FUTURO(WON'T): Coisas como Compartilhar tarefas, Notificações, Categorias.
 
 
