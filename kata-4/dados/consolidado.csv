@@ -1,0 +1,7 @@
+id_pedido,nome_cliente,cidade_normalizada,estado,valor_total,status_pedido,data_pedido,data_prevista_entrega,data_realizada_entrega,atraso_dias,status_entrega
+101,João Silva,São Paulo,SP,150.5,CONCLUIDO,2024-01-10,2024-01-15,2024-01-14,-1.0,ENTREGUE
+102,Maria Santos,São Paulo,SP,89.9,PENDENTE,2024-01-15,2024-01-20,2024-01-22,2.0,ENTREGUE
+103,Carlos Souza,São Paulo,SP,230.0,CONCLUIDO,2024-02-20,2024-02-25,2024-02-28,3.0,ENTREGUE
+104,Ana Paula,Rio de Janeiro,RJ,45.5,CANCELADO,2024-03-10,2024-03-15,,,ATRASADO
+105,Pedro Costa,Belo Horizonte,MG,320.75,CONCLUIDO,2024-03-25,,,,
+106,João Silva,São Paulo,SP,0.0,PENDENTE,2024-04-01,,,,
