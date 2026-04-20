@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📋 Minhas Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📋 Minhas Tarefas</h1>
+
+        <div class="form-container">
+            <input type="text" id="tituloInput" placeholder="Digite uma nova tarefa...">
+            <select id="prioridadeSelect">
+                <option value="1">🔥 Alta Prioridade</option>
+                <option value="2" selected>📌 Média Prioridade</option>
+                <option value="3">✅ Baixa Prioridade</option>
+            </select>
+            <button id="criarBtn">➕ Adicionar</button>
+        </div>
+
+        <div class="filtros">
+            <button class="filtro-btn ativo" data-filtro="todas">📋 Todas</button>
+            <button class="filtro-btn" data-filtro="pendente">⏳ Pendentes</button>
+            <button class="filtro-btn" data-filtro="concluida">✅ Concluídas</button>
+        </div>
+
+        <div id="listaTarefas" class="lista-tarefas">
+            <p class="carregando">Carregando tarefas...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

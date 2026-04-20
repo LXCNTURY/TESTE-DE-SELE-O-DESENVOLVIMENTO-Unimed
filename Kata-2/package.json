@@ -1,0 +1,16 @@
+{
+  "name": "kata-2",
+  "version": "1.0.0",
+  "description": "Ambiguidade/Falta - O que exatamente é \"situação\" da tarefa?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
